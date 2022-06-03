@@ -9,7 +9,7 @@ html {
 
 html:before {
     content: "";
-    background: hsl(257, 40%, 49%) url(./images/bg-desktop.svg) no-repeat center;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center;
     background-size: cover;
     position: fixed;
     width: 100vw;
