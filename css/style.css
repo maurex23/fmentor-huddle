@@ -5,6 +5,10 @@
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
+}
+
+html:before{
+    content: "";
     background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center;
     background-size: cover;
     position: fixed;
@@ -13,7 +17,7 @@ html {
     z-index: -1;
 }
 
-body {
+body {   
     max-width: 1300px;
     margin: 0 auto;
     min-height: 100vh;
@@ -105,21 +109,20 @@ footer .social {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
-    font-size: 2.5rem;
-    gap: 10px;
+    font-size: 1.8rem;
+    gap: 20px;
     color: white;
 }
 
 footer .social i {
     border: white solid 1px;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     color: white;
-    width: 20px;
 }
 
-footer .social i:first-child {
-    padding: 15px 20px;
+footer .social a:first-child i {
+    padding: 10px 13px;
 }
 
 footer .social i:hover {
